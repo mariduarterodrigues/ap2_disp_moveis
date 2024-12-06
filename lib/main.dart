@@ -32,9 +32,9 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Menu Principal'),
       ),
-      body: Center( // Envolve o Column principal para centralizar
+      body: Center(
         child: Column(
-          mainAxisSize: MainAxisSize.min, // Garante que ocupe apenas o espaço necessário
+          mainAxisSize: MainAxisSize.min,
           children: [
             ElevatedButton(
               onPressed: () {

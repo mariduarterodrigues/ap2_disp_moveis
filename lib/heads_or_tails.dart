@@ -20,7 +20,6 @@ class _HeadsOrTailsScreenState extends State<HeadsOrTailsScreen> {
       _userChoice = userChoice;
     });
 
-    // Simula o tempo de "lançamento" da moeda com uma animação
     Future.delayed(const Duration(seconds: 2), () {
       String computerChoice = Random().nextBool() ? 'Cara' : 'Coroa';
       setState(() {

@@ -67,13 +67,13 @@ class _HangmanGameScreenState extends State<HangmanGameScreen> {
             Text('Tentativas restantes: $_attemptsLeft', style: const TextStyle(fontSize: 18)),
             const SizedBox(height: 20),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16.0), // Margem nas laterais
+              padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: TextField(
                 controller: _letterController,
                 maxLength: 1,
                 decoration: const InputDecoration(
                   labelText: 'Digite uma letra',
-                  contentPadding: EdgeInsets.symmetric(vertical: 10.0), // Margem interna
+                  contentPadding: EdgeInsets.symmetric(vertical: 10.0),
                 ),
                 onSubmitted: (_) => _guessLetter(),
               ),

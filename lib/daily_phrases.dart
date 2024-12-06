@@ -46,9 +46,9 @@ class _DailyPhrasesScreenState extends State<DailyPhrasesScreen> {
       appBar: AppBar(
         title: const Text('Frases do Dia'),
       ),
-      body: Center( // Centraliza o conteúdo
+      body: Center(
         child: Column(
-          mainAxisSize: MainAxisSize.min, // Limita o tamanho à soma dos filhos
+          mainAxisSize: MainAxisSize.min,
           children: [
             Padding(
               padding: const EdgeInsets.all(16.0),
