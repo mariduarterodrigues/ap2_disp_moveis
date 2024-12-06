@@ -46,6 +46,42 @@ Na tela de jogos, estão disponíveis três opções clássicas para entretenime
 - **Flutter**: Framework principal para desenvolvimento do aplicativo.  
 - **Dart**: Linguagem de programação utilizada no desenvolvimento.  
 - **Widgets**: Estruturas base para compor a interface do aplicativo.  
-- **Geradores Aleatórios**: Utilizados para sortear frases, palavras e resultados dos jogos.  
+- **Geradores Aleatórios**: Utilizados para sortear frases, palavras e resultados dos jogos.
+
+---
+
+## Como Executar o Projeto
+
+1. Certifique-se de ter o [Flutter](https://flutter.dev/docs/get-started/install) instalado em sua máquina.
+2. Clone o repositório:
+   ```bash
+   git clone https://github.com/mariduarterodrigues/ap2_disp_moveis.git
+   ```
+3. Acesse o diretório do projeto:
+   ```bash
+   cd ap2_disp_moveis
+   ```
+4. Instale dependências:
+   ```bash
+   flutter pub get
+   ```
+5. Execute o projeto:
+   ```bash
+   flutter run
+   ```
+   
+---
+
+## Estrutura do Projeto
+
+- **Tela Principal**: Exibe botões para acessar as funcionalidades principais.
+- **Tela de Jogos**: Contém as opções de jogos interativos.
+- **Lógica Separada**: Cada funcionalidade/jogo possui sua própria lógica encapsulada.
+
+---
+
+## Autor
+
+Desenvolvido por **Marilia Duarte Rodrigues** (Trabalho feito apenas por uma pessoa).
 
 ---
